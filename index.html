@@ -20,7 +20,7 @@
   <section class="colored-section"id="title">
     <div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-dark ">
-    <a class="navbar-brand" href="#">Sandu</a>
+    <a class="navbar-brand" href="#">Zandu</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" >
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,10 +31,10 @@
           <a class="nav-link" href="#">Home </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="#contact-us">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#features">Features</a>
         </li>
         
       </ul>
@@ -48,10 +48,87 @@
 
         </div>
         <div class="col-lg-6">
-        <img class="title-image" src="images/pic-1.jpg" alt="">
+        <img src="images/pic-1.jpg" alt="">
         </div>
   </div>
 </div>
+
+  </section>
+
+
+  <!-- feature -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <h2  class="subTitle-heading">Features</h2>
+
+      <div class="row">
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fa fa-check-circle-o fa-4x"></i>
+          <h1 class="feature-headind">Natural Pain Reliever</h1>
+          <p>It is a natural pain reliever which acts quickly to provide instant comfort from body pain.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <i class="icon fa fa-heart fa-4x"></i>
+          <h1 class="feature-headind">Anti-inflammatory</h1>
+          <p>Zandu Balm helps in healing any swelling in the body. it cools the affected area,giving it considerable relief .</p>
+        </div>
+
+        <div class="col-lg-4" >
+          <i class="icon fa fa-check-circle-o fa-4x"></i>
+          <h1 class="feature-headind">Muscle Relaxant</h1>
+          <p>Zandu Balm can be used as a muscle relaxant, to give the stretched muscles quick relief.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- contact -->
+
+  <section class="white-section"id="contact-us">
+    <div class="container-fluid">
+      <h2 class="subTitle-heading">Contact</h2>
+
+    <form method="POST" id="webform" action="https://script.google.com/macros/s/AKfycbz-wy2uctcS7XMnFJ4hfqqOAOILAE6LZGPrWiZ7IxTekesxhO0/exec">
+      <p class="comment-form-author">
+        <label for="author"> Name</label>
+        <input class="input-text" type="text" class="textbox" name="name" value="Enter your name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your name...';}">
+      </p>
+      <p class="comment-form-author">
+        <label for="author">Email</label>
+        <input class="input-text" type="text" class="textbox" name="email" value="Enter your email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email...';}">
+        <span id="email-invalid" style="display:none;color:red">
+          Must be a valid email address
+        </span>
+      </p>
+      <p class="comment-form-author">
+        <label for="author">Message</label>
+        <textarea class="input-text"value="Enter your message..." name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}"cols="30" rows="10">Enter your message...</textarea>
+      </p>
+      <input class="submit-button" name="submit" type="submit" id="submit" value="Submit">
+    </form>
+  </div>
+  </section>
+
+
+
+  <section class="colored-section">
+
+    <div class="container-fluid"id="footer">
+    <i class= "social-icon fa fa-facebook-official"></i>
+    <i class= "social-icon fa fa-twitter" ></i>
+    <i class= "social-icon fa fa-instagram" ></i>
+    <i class= "social-icon fa fa-envelope-o"></i>
+    <p>© Copyright 2020 Zandu</p>
+
+
+
+    </div>
+
+
 
   </section>
 
@@ -62,9 +139,7 @@
 
 
 
-
-
-
 <script src="index.js"></script>
+
 </body>
 </html>

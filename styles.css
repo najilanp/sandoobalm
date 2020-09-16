@@ -1,6 +1,16 @@
 body{
     font-family: Montserrat;
     text-align:center ;
+    line-height: 1.5;
+    
+}
+h2{
+    color: ;
+}
+p{
+    color: tomato;
+    font-size: 1rem;
+    
     
 }
 
@@ -13,6 +23,11 @@ body{
     background-color:#ade498;
     color:white;
     
+}
+
+
+.white-section{
+    background-color: white;
 }
 .title-heading{
     font-family: montserrat;
@@ -30,7 +45,7 @@ body{
 
 }
 .download-button{
-    margin:20px 100px;
+    margin:20px 0;
 }
 
 .navbar{
@@ -50,4 +65,48 @@ body{
 .nav-link{
     font-size: 1.2rem;
     font-family: Montserrat-light;
+}
+
+/*feature*/
+
+
+.feature-headind{
+    font-size: 1.5rem;
+
+
+
+}
+.icon{
+    color: tomato;
+    margin-bottom: 1rem ;
+}
+.feature-box{
+    text-align: center;
+
+    
+}
+
+#contact-us{
+
+}
+
+.input-text{
+    font-size: small;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8f8f8f;
+   
+}
+.submit-button:hover{
+   color: tomato;
+    
+}
+.subTitle-heading{
+  margin-bottom: 50px;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+.#footer{
+    padding: 10px 0 10px; 
 }
