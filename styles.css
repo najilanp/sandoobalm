@@ -110,3 +110,17 @@ p{
 .#footer{
     padding: 10px 0 10px; 
 }
+/*gallery*/
+
+.gallery-image{
+    margin: 0 ;
+    height: 250px;
+    width: 300px;
+    border: 1px solid ;
+    border-radius: 10%;
+
+}
+.gallery-image:hover{
+   
+    border: 1px solid  #8f8f8f; ;
+}
